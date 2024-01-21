@@ -31,8 +31,8 @@ export default {
         return{
             noticias:[
             {
-                    title:"Choque y vuelvo en Caballito",
-                    link:{name:"cornica.com.ar", value:"https://www.cronica.com.ar"},
+                    title:"Choque y vuelco en Caballito",
+                    link:{name:"cronica.com.ar", value:"https://www.cronica.com.ar"},
 
                     description:"El accidente ocurrio a las 7am y fue protagonizado por un conductor borracho."
                 },{
@@ -44,8 +44,8 @@ export default {
                     link:{name:"futbol.com", value:"https://ole.com.ar"},
                     description:"Nisi ex pariatur incididunt qui irure voluptate. Lorem consectetur aute excepteur sit elit esse aute velit quis exercitation id pariatur velit fugiat."
                 },{
-                    title:"Choque y vuelvo en Caballito",
-                    link:{name:"cornica.com.ar", value:"https://www.cronica.com.ar"},
+                    title:"Choque y vuelco en Caballito",
+                    link:{name:"cronica.com.ar", value:"https://www.cronica.com.ar"},
 
                     description:"El accidente ocurrio a las 7am y fue protagonizado por un conductor borracho."
                 },{
@@ -57,8 +57,8 @@ export default {
                     link:{name:"futbol.com", value:"https://ole.com.ar"},
                     description:"Nisi ex pariatur incididunt qui irure voluptate. Lorem consectetur aute excepteur sit elit esse aute velit quis exercitation id pariatur velit fugiat."
                 },{
-                    title:"Choque y vuelvo en Caballito",
-                    link:{name:"cornica.com.ar", value:"https://www.cronica.com.ar"},
+                    title:"Choque y vuelco en Caballito",
+                    link:{name:"cronica.com.ar", value:"https://www.cronica.com.ar"},
 
                     description:"El accidente ocurrio a las 7am y fue protagonizado por un conductor borracho."
                 },{
