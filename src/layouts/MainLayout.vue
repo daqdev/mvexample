@@ -1,8 +1,7 @@
 <template>
     <v-layout>
         <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
-
-        <v-app-bar color="primary" prominent>
+        <v-app-bar scroll-behavior="hide" color="primary" prominent>
             <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" disabled></v-app-bar-nav-icon>
 
             <v-toolbar-title>Noticias</v-toolbar-title>
@@ -24,6 +23,100 @@
             <v-card-text>
                 The navigation drawer will appear from the bottom on smaller size screens.
             </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            <v-card-text>
+                The navigation drawer will appear from the bottom on smaller size screens.
+            </v-card-text>
+            
         </v-main>
     </v-layout>
 </template>
