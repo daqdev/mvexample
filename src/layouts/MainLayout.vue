@@ -1,8 +1,7 @@
 <template>
     <v-layout>
-        <!-- <v-system-bar color="deep-purple darken-3"></v-system-bar> -->
         <v-app-bar scroll-behavior="hide" color="primary" prominent>
-            <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer" disabled></v-app-bar-nav-icon>
+            <v-app-bar-nav-icon disabled variant="text" @click.stop="drawer = !drawer" ></v-app-bar-nav-icon>
 
             <v-toolbar-title>Noticias</v-toolbar-title>
 
@@ -19,113 +18,33 @@
             <v-list :items="items"></v-list>
         </v-navigation-drawer>
 
-        <v-main style="height: 500px;">
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            <v-card-text>
-                The navigation drawer will appear from the bottom on smaller size screens.
-            </v-card-text>
-            
+        <v-main class="main">
+            <noticias-comp/>
         </v-main>
+
     </v-layout>
 </template>
 <script>
+import NoticiasComp from '../components/NoticiasComp.vue'
+import {ref} from 'vue'
 export default {
-    data: () => ({
-        drawer: false,
-        group: null,
-        items: [
+    components:{
+        NoticiasComp,
+    },
+    watch:{
+        group() {
+            this.drawer = false
+        },
+    },
+    setup() {
+
+        const drawer=ref(false)
+        const group=ref(null)
+
+        return{
+            drawer,
+            group,
+            items:[
             {
                 title: 'Foo',
                 value: 'foo',
@@ -134,21 +53,44 @@ export default {
                 title: 'Bar',
                 value: 'bar',
             },
-            {
-                title: 'Fizz',
-                value: 'fizz',
-            },
-            {
-                title: 'Buzz',
-                value: 'buzz',
-            },
-        ],
-    }),
-
-    watch: {
-        group() {
-            this.drawer = false
-        },
+        ]
+        }
     },
 }
+
+
+
+
+// export default {
+//     data: () => ({
+//         drawer: false,
+//         group: null,
+//         items: [
+//             {
+//                 title: 'Foo',
+//                 value: 'foo',
+//             },
+//             {
+//                 title: 'Bar',
+//                 value: 'bar',
+//             },
+//             {
+//                 title: 'Fizz',
+//                 value: 'fizz',
+//             },
+//             {
+//                 title: 'Buzz',
+//                 value: 'buzz',
+//             },
+//         ],
+//     }),
+
+//     watch: {
+//         group() {
+//             this.drawer = false
+//         },
+//     },
+// }
 </script>
+<style scoped>
+</style>
