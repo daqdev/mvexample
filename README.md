@@ -1,35 +1,12 @@
 # vmexample
 
-This template should help get you started developing with Vue 3 in Vite.
+This is an example application that lists news from different sources.
+Goals: Put in practice techniques and technologies related to web development, while creating a useful product
+Stack: Vue3 , Vuetify3.
+## Next steps
 
-## Recommended IDE Setup
+* Connect with news api like https://newsdata.io/ and https://newsapi.org/
+* Implement customization to fetching news by categories, country, top story, etc.
+* Implement more technologies like axios and supabase
+* Improve UI, implement more components from Vuetify3.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
