@@ -18,9 +18,9 @@
             <v-list :items="items"></v-list>
         </v-navigation-drawer>
 
-        <v-main class="main">
+        <!-- <v-main class="main"> -->
             <noticias-comp/>
-        </v-main>
+        <!-- </v-main> -->
 
     </v-layout>
 </template>

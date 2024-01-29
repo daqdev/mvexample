@@ -1,6 +1,7 @@
 <template>
     <div
     style="display: flex;
+    width:max-content;
     flex-direction: column;
     gap: 3%;
     row-gap:3vh;
@@ -8,7 +9,6 @@
         <v-card
         v-for="(item, index) in noticias" :key="index" 
         >
-        <!-- width="400" -->
             <template v-slot:title>
                 {{ item.title }}
             </template>
@@ -71,8 +71,6 @@ export default {
                     description:"Nisi ex pariatur incididunt qui irure voluptate. Lorem consectetur aute excepteur sit elit esse aute velit quis exercitation id pariatur velit fugiat."
                 },
 
-
-
             ],
         }
     },
@@ -80,13 +78,5 @@ export default {
 </script>
 
 <style scoped>
-@media only screen and (min-width: 768px) and (max-width:1500px) {
-
-    v-card {
-        width: 900;
-    }
-  /* Medium screen styles here */
-
-}
 
 </style>
